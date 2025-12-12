@@ -15,8 +15,8 @@ var chart = new FamilyTree(document.getElementById("tree"), {
 
 
 chart.load([
-    { id: 1, pids: [2], name: "King George VI", img: "https://cdn.balkan.app/shared/f1.png", gender: 'male' },
-    { id: 2, pids: [1], name: "Queen Elizabeth", title: "The Queen Mother", img: "https://cdn.balkan.app/shared/f2.png", gender: 'female' },
+    { id: 1, pids: [2], name: "TỔ ÔNG", img: "https://cdn.balkan.app/shared/f1.png", gender: 'male' },
+    { id: 2, pids: [1], name: "TỔ BÀ", title: "The Queen Mother", img: "https://cdn.balkan.app/shared/f2.png", gender: 'female' },
 
     { id: 3, pids: [4], mid: 2, fid: 1, name: "Queen Elizabeth II", img: "https://cdn.balkan.app/shared/f5.png", gender: 'female' },
     { id: 4, pids: [3], name: "Prince Philip", title: "Duke of Edinburgh", img: "https://cdn.balkan.app/shared/f3.png", gender: 'male' },
