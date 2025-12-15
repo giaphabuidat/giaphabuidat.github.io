@@ -56,7 +56,7 @@ chart.load([
 
     // Ô SẤC: BÙI ĐẠT SẤC – TRẦN THỊ XUÂN
     { id: 14, orderBy: 14, pids: [20], fid: 5, mid: 7, name: "BÙI ĐẠT SẤC",   title: "(1898-1950)", gender: "male",   img: "image.png" },
-    { id: 20, orderBy: 20, pids: [14],                 name: "TRẦN THỊ XUÂN",  title: "(1904-1994)", gender: "female", img: "image2.jpg" },
+    { id: 20, orderBy: 20, pids: [14],                 name: "TRẦN THỊ XUÂN",  title: "(1904-1994)", gender: "female", img: "tran-thi-xuan.jpg" },
 
     // Con của BÙI ĐẠT NHUẬN – BÙI THỊ SẤC
     // Ô CỪ: BÙI THỊ CỪ – CHỒNG BÀ BÙI THỊ CỪ
