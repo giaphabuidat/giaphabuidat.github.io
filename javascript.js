@@ -184,7 +184,7 @@ chart.load([
 
     // Con của BÙI ĐẠT HUY – NGUYỄN THỊ VINH
     { id: 82, orderBy: 82, fid: 51, mid: 61, name: "BÙI THỊ HƯỜNG", title: "(1993)", gender: "female" },
-    { id: 109, orderBy: 109, fid: 51, mid: 61, name: "BÙI ĐẠT NGỘ, title: "(1994-1994)", gender: "male" },
+    { id: 109, orderBy: 109, fid: 51, mid: 61, name: "BÙI ĐẠT NGỘ", title: "(1994-1994)", gender: "male" },
     { id: 83, orderBy: 83, fid: 51, mid: 61, pids: [98], name: "BÙI ĐẠT HÙNG",  title: "(1996)", gender: "male" },
     { id: 98, orderBy: 98, pids: [83],                  name: "NGUYỄN THỊ QUẾ", title: "(1997)",       gender: "female" },
 
