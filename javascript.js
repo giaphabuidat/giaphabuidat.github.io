@@ -24,7 +24,7 @@ chart.load([
     // ===== ĐỜI CON CỦA TỔ ÔNG – TỔ BÀ =====
     // Ô 1: BÙI ĐẠT BỒI – BÙI THỊ BỒI
     { id: 3, orderBy: 3, pids: [4], fid: 1, mid: 2, name: "BÙI ĐẠT BÒI",  title: "(11/01 AL)", gender: "male",   img: "image.png" },
-    { id: 4, orderBy: 4, pids: [3],            name: "BÙI THỊ BOI",      title: "(10/04 AL)", gender: "female", img: "image2.jpg" },
+    { id: 4, orderBy: 4, pids: [3],            name: "BÙI THỊ BÒI",      title: "(10/04 AL)", gender: "female", img: "image2.jpg" },
 
     // Ô 2: BÙI ĐẠT NHUẬN – ĐẶNG THỊ NHUẬN – BÙI THỊ SẤC
     { id: 5, orderBy: 5, pids: [6,7], fid: 1, mid: 2, name: "BÙI ĐẠT NHUẬN", title: "(01/05 AL)", gender: "male",   img: "image.png" },
