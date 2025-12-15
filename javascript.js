@@ -19,7 +19,7 @@ var chart = new FamilyTree(document.getElementById("tree"), {
 chart.load([
     // ===== TỔ TIÊN =====
     { id: 1, orderBy: 1, name: "TỔ ÔNG", title: "BÙI ĐẠT LIÊN (18....-19....)", gender: "male" },
-    { id: 2, orderBy: 2, name: "TỔ BÀ",  title: "BÙI THỊ LIÊN (18.....-18....)", gender: "female" },
+    { id: 1, orderBy: 2, name: "TỔ BÀ",  title: "BÙI THỊ LIÊN (18.....-18....)", gender: "female" },
 
     // ===== ĐỜI CON CỦA TỔ ÔNG – TỔ BÀ =====
     // Ô 1: BÙI ĐẠT BỒI – BÙI THỊ BỒI
