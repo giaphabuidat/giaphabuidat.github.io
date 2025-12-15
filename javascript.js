@@ -18,8 +18,8 @@ var chart = new FamilyTree(document.getElementById("tree"), {
 
 chart.load([
     // ===== TỔ TIÊN =====
-    { id: 1, orderBy: 1, name: "TỔ ÔNG", title: "BÙI ĐẠT LIÊN (18....-19....)", gender: "male" },
-    { id: 1, orderBy: 2, name: "TỔ BÀ",  title: "BÙI THỊ LIÊN (18.....-18....)", gender: "female" },
+    { id: 1, orderBy: 1, name: "TỔ TIÊN BÙI ĐẠT", title: "(18....-19....)", gender: "male" },
+    { id: 1, orderBy: 2, name: "TỔ TIÊN BÙI ĐẠT",  title: "(18.....-18....)", gender: "female" },
 
     // ===== ĐỜI CON CỦA TỔ ÔNG – TỔ BÀ =====
     // Ô 1: BÙI ĐẠT BỒI – BÙI THỊ BỒI
@@ -28,8 +28,8 @@ chart.load([
 
     // Ô 2: BÙI ĐẠT NHUẬN – ĐẶNG THỊ NHUẬN – BÙI THỊ SẤC
     { id: 5, orderBy: 5, pids: [6,7], fid: 1, mid: 2, name: "BÙI ĐẠT NHUẬN", title: "(1800-1800)", gender: "male" },
-    { id: 6, orderBy: 6, pids: [5],            name: "ĐẶNG THỊ NHUẬN",     title: "(1800-1800)",  gender: "female" },
-    { id: 7, orderBy: 7, pids: [5],            name: "BÙI THỊ SẤC",        title: "(1800-1800)",  gender: "female" },
+    { id: 7, orderBy: 7, pids: [5],            name: "ĐẶNG THỊ NHUẬN",     title: "(1800-1800)",  gender: "female" },
+    { id: 6, orderBy: 6, pids: [5],            name: "BÙI THỊ SẤC",        title: "(1800-1800)",  gender: "female" },
 
     // Ô 3: BÙI ĐẠT LIÊN (con) – BÙI THỊ LIÊN (vợ)
     { id: 8, orderBy: 8, pids: [9], fid: 1, mid: 2, name: "BÙI ĐẠT LIÊN", title: "",  gender: "male" },
@@ -51,20 +51,20 @@ chart.load([
 
     // Con của BÙI ĐẠT NHUẬN – ĐẶNG THỊ NHUẬN
     // Ô DIÊN: BÙI THỊ DIÊN – NGUYỄN VĂN PHƠNG
-    { id: 13, orderBy: 13, fid: 5, mid: 6, pids: [33], name: "BÙI THỊ DIÊN",  title: "",            gender: "female" },
+    { id: 13, orderBy: 13, fid: 5, mid: 7, pids: [33], name: "BÙI THỊ DIÊN",  title: "",            gender: "female" },
     { id: 33, orderBy: 33, pids: [13],                 name: "NGUYỄN VĂN PHƠNG", title: "",         gender: "male" },
 
     // Ô SẤC: BÙI ĐẠT SẤC – TRẦN THỊ XUÂN
-    { id: 14, orderBy: 14, pids: [20], fid: 5, mid: 6, name: "BÙI ĐẠT SẤC",   title: "(1898-1950)", gender: "male" },
+    { id: 14, orderBy: 14, pids: [20], fid: 5, mid: 7, name: "BÙI ĐẠT SẤC",   title: "(1898-1950)", gender: "male" },
     { id: 20, orderBy: 20, pids: [14],                 name: "TRẦN THỊ XUÂN",  title: "(1904-1994)", gender: "female" },
 
     // Con của BÙI ĐẠT NHUẬN – BÙI THỊ SẤC
     // Ô CỪ: BÙI THỊ CỪ – CHỒNG BÀ BÙI THỊ CỪ
-    { id: 15, orderBy: 15, fid: 5, mid: 7, pids: [35], name: "BÙI THỊ CỪ",   title: "", gender: "female" },
+    { id: 15, orderBy: 15, fid: 5, mid: 6, pids: [35], name: "BÙI THỊ CỪ",   title: "", gender: "female" },
     { id: 35, orderBy: 35, pids: [15],                 name: "CHỒNG BÀ BÙI THỊ CỪ", title: "", gender: "male" },
 
     // Ô LỊNH: BÙI ĐẠT LỊNH – NGUYỄN THỊ TIU
-    { id: 16, orderBy: 16, pids: [21], fid: 5, mid: 7, name: "BÙI ĐẠT LỊNH", title: "(1884-1900)", gender: "male" },
+    { id: 16, orderBy: 16, pids: [21], fid: 5, mid: 6, name: "BÙI ĐẠT LỊNH", title: "(1884-1900)", gender: "male" },
     { id: 21, orderBy: 21, pids: [16],                 name: "NGUYỄN THỊ TIU", title: "",          gender: "female" },
 
     // Con của BÙI ĐẠT LIÊN (con) – BÙI THỊ LIÊN
