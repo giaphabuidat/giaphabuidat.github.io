@@ -6,11 +6,9 @@ var chart = new FamilyTree(document.getElementById("tree"), {
     scaleInitial: options.scaleInitial,
     siblingSeparation: 120,
     template: 'john',
-    roots: [1],
     nodeBinding: {
         field_0: "name",
         field_1: "title",
-        img_0: "img",
     }
 });
 
