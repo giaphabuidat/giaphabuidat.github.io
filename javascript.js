@@ -126,8 +126,8 @@ chart.load([
     { id: 57, orderBy: 57, pids: [49],                  name: "LÊ THỊ NHUNG",  title: "(1970)",  gender: "female", img: "image2.jpg" },
 
     { id: 50, orderBy: 50, fid: 25, mid: 38, pids: [58,59,60], name: "BÙI ĐẠT QUANG", title: "(1969)", gender: "male",   img: "image.png" },
-    { id: 58, orderBy: 58, pids: [50],                  name: "TRẦN THỊ MAI",  title: "(1975)",        gender: "female", img: "image2.jpg" },
-    { id: 59, orderBy: 59, pids: [50],                  name: "TRẦN THỊ THÙY", title: "(1985-2021)",        gender: "female", img: "image2.jpg" },
+    { id: 59, orderBy: 59, pids: [50],                  name: "TRẦN THỊ MAI",  title: "(1975)",        gender: "female", img: "image2.jpg" },
+    { id: 58, orderBy: 58, pids: [50],                  name: "TRẦN THỊ THÙY", title: "(1985-2021)",        gender: "female", img: "image2.jpg" },
     { id: 60, orderBy: 60, pids: [50],                  name: "BIỆN THỊ NGUYỆT", title: "(1982)",      gender: "female", img: "image2.jpg" },
 
     // Con của BÙI ĐẠT QUỲ – ĐÀO THỊ NHUẦN
@@ -172,15 +172,15 @@ chart.load([
     { id: 76, orderBy: 76, fid: 49, mid: 57, name: "BÙI THỊ THÚY AN", title: "(2004)", gender: "female", img: "image2.jpg" },
 
     // Con của BÙI ĐẠT QUANG – TRẦN THỊ MAI
-    { id: 77, orderBy: 77, fid: 50, mid: 58, name: "BÙI THỊ THANH HUYỀN", title: "(1993)", gender: "female", img: "image2.jpg" },
+    { id: 77, orderBy: 77, fid: 50, mid: 59, name: "BÙI THỊ THANH HUYỀN", title: "(1993)", gender: "female", img: "image2.jpg" },
     { id: 97, orderBy: 97, pids: [79],  name: "HỒ VĂN ĐÔNG",         title: "(1997)",      gender: "male",   img: "image.png" },
-    { id: 78, orderBy: 78, fid: 50, mid: 58, name: "BÙI ĐẠT SIÊU",          title: "(2001-2001)",      gender: "male",   img: "image.png" },
-    { id: 108, orderBy: 78, fid: 50, mid: 58, name: "BÙI THỊ HỒNG",          title: "(2002-2002)",      gender: "female", img: "image2.jpg" },
-    { id: 79, orderBy: 79, fid: 50, mid: 58, pids: [97], name: "BÙI THỊ THU TRANG",    title: "(2004)",gender: "female", img: "image2.jpg" },
+    { id: 78, orderBy: 78, fid: 50, mid: 59, name: "BÙI ĐẠT SIÊU",          title: "(2001-2001)",      gender: "male",   img: "image.png" },
+    { id: 108, orderBy: 78, fid: 50, mid: 59, name: "BÙI THỊ HỒNG",          title: "(2002-2002)",      gender: "female", img: "image2.jpg" },
+    { id: 79, orderBy: 79, fid: 50, mid: 59, pids: [97], name: "BÙI THỊ THU TRANG",    title: "(2004)",gender: "female", img: "image2.jpg" },
 
     // Con của BÙI ĐẠT QUANG – TRẦN THỊ THÙY
-    { id: 80, orderBy: 80, fid: 50, mid: 59, name: "BÙI ĐẠT ĐỨC",          title: "(2012)", gender: "male",   img: "image.png" },
-    { id: 81, orderBy: 81, fid: 50, mid: 59, name: "BÙI THỊ PHƯƠNG TÂM",   title: "(2019)", gender: "female", img: "image2.jpg" },
+    { id: 80, orderBy: 80, fid: 50, mid: 58, name: "BÙI ĐẠT ĐỨC",          title: "(2012)", gender: "male",   img: "image.png" },
+    { id: 81, orderBy: 81, fid: 50, mid: 58, name: "BÙI THỊ PHƯƠNG TÂM",   title: "(2019)", gender: "female", img: "image2.jpg" },
 
     // Con của BÙI ĐẠT HUY – NGUYỄN THỊ VINH
     { id: 82, orderBy: 82, fid: 51, mid: 61, name: "BÙI THỊ HƯỜNG", title: "(1993)", gender: "female", img: "image2.jpg" },
