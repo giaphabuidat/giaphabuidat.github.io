@@ -85,7 +85,7 @@ chart.load([
     { id: 24, orderBy: 24, fid: 14, mid: 20, pids: [37], name: "BÙI THỊ NHÂN",      title: "(1934)", gender: "female", img: "image2.jpg" },
     { id: 37, orderBy: 37, pids: [24],                  name: "NGUYỄN ĐÌNH NGÂN",   title: "(1932-2014)", gender: "male", img: "image.png" },
 
-    { id: 25, orderBy: 25, fid: 14, mid: 20, pids: [38], name: "BÙI ĐẠT NGHĨA",     title: "(1938-1969)", gender: "male",   img: "image.png" },
+    { id: 25, orderBy: 25, fid: 14, mid: 20, pids: [38], name: "BÙI ĐẠT NGHĨA",     title: "(1938-1969)", gender: "male",   img: "bui-dat-nghia.jpg" },
     { id: 38, orderBy: 38, pids: [25],                  name: "NGUYỄN THỊ SÁU",     title: "(1939)", gender: "female", img: "image2.jpg" },
 
     { id: 26, orderBy: 26, fid: 14, mid: 20, pids: [39], name: "BÙI THỊ LỢI",       title: "(1945)", gender: "female", img: "image2.jpg" },
