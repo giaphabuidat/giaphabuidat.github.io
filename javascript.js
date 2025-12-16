@@ -6,7 +6,7 @@ var chart = new FamilyTree(document.getElementById("tree"), {
     scaleInitial: options.scaleInitial,
     siblingSeparation: 120,
     template: 'john',
-    roots: [1],
+    roots: [2],
     enableSearch: options.enableSearch,
     orderBy: "orderBy",
     nodeBinding: {
@@ -19,7 +19,7 @@ var chart = new FamilyTree(document.getElementById("tree"), {
 chart.load([
     // ===== TỔ TIÊN =====
     { id: 1, orderBy: 1, name: "TỔ TIÊN BÙI ĐẠT", title: "(26/06 AL)", gender: "male",   img: "image.png" },
-    { id: 1, orderBy: 2, name: "TỔ TIÊN BÙI ĐẠT", title: "(26/06 AL)", gender: "female", img: "image2.jpg" },
+    { id: 2, orderBy: 2, name: "TỔ TIÊN BÙI ĐẠT", title: "(26/06 AL)", gender: "female", img: "image2.jpg" },
 
     // ===== ĐỜI CON CỦA TỔ ÔNG – TỔ BÀ =====
     // Ô 1: BÙI ĐẠT BỒI – BÙI THỊ BỒI
