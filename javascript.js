@@ -106,16 +106,16 @@ chart.load([
 
     // Ô DIỆM: BÙI THỊ DIỆM – BÙI VĂN TƯ
     { id: 11, orderBy: 11, fid: 3, mid: 4, pids: [31], name: "BÙI THỊ DIỆM",  title: "", gender: "female", img: "image2.jpg" },
-    { id: 31, orderBy: 31, pids: [11],                 name: "BÙI VĂN TƯ",    title: "", gender: "male",   img: "image.png" },
+    { id: 31, orderBy: 31, pids: [11],                 name: "CHỒNG BÀ BÙI THỊ DIỆN",    title: "", gender: "male",   img: "image.png" },
 
     // Ô TÙY: BÙI THỊ TÙY – BÙI VĂN LAI
     { id: 12, orderBy: 12, fid: 3, mid: 4, pids: [32], name: "BÙI THỊ TÙY",   title: "", gender: "female", img: "image2.jpg" },
-    { id: 32, orderBy: 32, pids: [12],                 name: "BÙI VĂN LAI",   title: "", gender: "male",   img: "image.png" },
+    { id: 32, orderBy: 32, pids: [12],                 name: "CHỒNG BÀ BÙI THỊ TÙY",   title: "", gender: "male",   img: "image.png" },
 
     // Con của BÙI ĐẠT NHUẬN – ĐẶNG THỊ NHUẬN
     // Ô DIÊN: BÙI THỊ DIÊN – NGUYỄN VĂN PHƠNG
     { id: 13, orderBy: 13, fid: 5, mid: 7, pids: [33], name: "BÙI THỊ DIÊN",  title: "",            gender: "female", img: "image2.jpg" },
-    { id: 33, orderBy: 33, pids: [13],                 name: "NGUYỄN VĂN PHƠNG", title: "",         gender: "male",   img: "image.png" },
+    { id: 33, orderBy: 33, pids: [13],                 name: "VÕ VĂN PHƠNG", title: "",         gender: "male",   img: "image.png" },
 
     // Ô SẤC: BÙI ĐẠT SẤC – TRẦN THỊ XUÂN
     { id: 14, orderBy: 14, pids: [20], fid: 5, mid: 7, name: "BÙI ĐẠT SẤC",   title: "(1898-1950)", gender: "male",   img: "image.png" },
@@ -132,8 +132,9 @@ chart.load([
 
     // Con của BÙI ĐẠT LIÊN (con) – BÙI THỊ LIÊN
     { id: 17, orderBy: 17, fid: 8, mid: 9, name: "BÙI ĐẠT TIẾN", title: "(26/11 AL)", gender: "male",   img: "image.png" },
-    { id: 18, orderBy: 18, fid: 8, mid: 9, pids: [34], name: "BÙI THỊ TÍN",  title: "(1884-1900)", gender: "female", img: "image2.jpg" },
-    { id: 34, orderBy: 34, pids: [18],                 name: "BÙI VĂN TÍN",   title: "",          gender: "male",   img: "image.png" },
+    { id: 18, orderBy: 18, fid: 8, mid: 9, pids: [34,110], name: "BÙI THỊ TÍN",  title: "(1914-1996)", gender: "female", img: "image2.jpg" },
+    { id: 34, orderBy: 34, pids: [18],                 name: "HỒ VĂN KHỞI",   title: "(1901-1948)",          gender: "male",   img: "image.png" },
+    { id: 110, orderBy: 110, pids: [18],                 name: "PHAN ĐÌNH TÍN",   title: "(1917-1983)",          gender: "male",   img: "image.png" },
 
     // ===== ĐỜI CHẮT =====
     // Con của BÙI ĐẠT QUYỀN – BÙI THỊ QUYỀN
