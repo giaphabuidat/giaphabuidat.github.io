@@ -8,6 +8,55 @@ var chart = new FamilyTree(document.getElementById("tree"), {
     template: 'john',
     enableSearch: options.enableSearch,
     orderBy: "orderBy",
+    // CẤU HÌNH VIỆT HÓA TẠI ĐÂY
+    editForm: {
+        // 1. Dịch các nút chức năng chính
+        saveAndCloseBtn: "Lưu và Đóng",
+        cancelBtn: "Hủy bỏ",
+        addMore: "Thêm thông tin khác",
+        addMoreBtn: "Thêm dòng",
+        addMoreFieldName: "Tên trường dữ liệu",
+
+        // 2. Dịch các nút công cụ nhỏ (Sửa, Xóa, Chia sẻ, PDF)
+        buttons: {
+            edit: {
+                icon: FamilyTree.icon.edit(24, 24, '#fff'),
+                text: 'Chỉnh sửa' // Tooltip khi di chuột vào
+            },
+            share: {
+                icon: FamilyTree.icon.share(24, 24, '#fff'),
+                text: 'Chia sẻ'
+            },
+            pdf: {
+                icon: FamilyTree.icon.pdf(24, 24, '#fff'),
+                text: 'Tải PDF'
+            },
+            remove: {
+                icon: FamilyTree.icon.remove(24, 24, '#fff'),
+                text: 'Xóa thành viên'
+            }
+        },
+
+        // 3. Quan trọng: Việt hóa "Name", "Title" (Label)
+        elements: [
+            { 
+                type: 'textbox', 
+                label: 'Họ và Tên', // <-- Sửa chữ "Name" thành "Họ và Tên" ở đây
+                binding: 'name'     // Giữ nguyên binding theo dữ liệu của bạn
+            },
+            { 
+                type: 'textbox', 
+                label: 'Chức danh', // <-- Sửa chữ "Title" thành "Chức danh" ở đây
+                binding: 'title' 
+            },
+            { 
+                type: 'textbox', 
+                label: 'Ảnh đại diện (URL)', 
+                binding: 'img' 
+            }
+            // Bạn có thể thêm các trường khác tùy ý
+        ]
+    },
     nodeBinding: {
         field_0: "name",
         field_1: "title",
