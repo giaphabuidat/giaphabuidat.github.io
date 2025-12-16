@@ -82,7 +82,7 @@ var chart = new FamilyTree(document.getElementById("tree"), {
 chart.load([
     // ===== TỔ TIÊN =====
     { id: 1, orderBy: 1, pids: [2], date: "26/06 AL", name: "TỔ ÔNG", title: "(26/06 AL)", gender: "male",   img: "image.png" },
-    { id: 2, orderBy: 2, pids: [1], name: "TỔ BÀ", title: "(26/06 AL)", gender: "female", img: "image2.jpg" },
+    { id: 2, orderBy: 2, pids: [1], date: "26/06 AL", name: "TỔ BÀ", title: "(26/06 AL)", gender: "female", img: "image2.jpg" },
 
     // ===== ĐỜI CON CỦA TỔ ÔNG – TỔ BÀ =====
     // Ô 1: BÙI ĐẠT BỒI – BÙI THỊ BỒI
