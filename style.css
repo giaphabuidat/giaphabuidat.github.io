@@ -14,3 +14,26 @@ html, body {
     height: 100%;
     background: #0f5807;
 }
+
+/* CSS để căn chỉnh đẹp mắt */
+        .header-title {
+            display: flex;
+            align-items: center; /* Căn giữa theo chiều dọc */
+            justify-content: center; /* Căn giữa trang */
+            gap: 20px; /* Khoảng cách giữa rồng và chữ */
+            margin-top: 50px;
+            font-family: "Times New Roman", serif;
+        }
+
+        .header-title h1 {
+            color: #b8860b; /* Màu chữ vàng kim đậm cho hợp với rồng */
+            font-size: 32px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Lật ngược con rồng bên phải để đối xứng */
+        .dragon-right {
+            transform: scaleX(-1);
+        }
