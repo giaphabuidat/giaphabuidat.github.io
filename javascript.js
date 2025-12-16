@@ -56,7 +56,7 @@ chart.load([
 
     // Ô SẤC: BÙI ĐẠT SẤC – TRẦN THỊ XUÂN
     { id: 14, orderBy: 14, pids: [20], fid: 5, mid: 7, name: "BÙI ĐẠT SẤC",   title: "(1898-1950)", gender: "male",   img: "image.png" },
-    { id: 20, orderBy: 20, pids: [14],                 name: "TRẦN THỊ XUÂN",  title: "(1904-1994)", gender: "female", img: "tran-thi-xuan.jpg" },
+    { id: 20, orderBy: 20, pids: [14],                 name: "TRẦN THỊ XUÂN",  title: "(1904-1994)", gender: "female", img: "img/tran-thi-xuan.jpg" },
 
     // Con của BÙI ĐẠT NHUẬN – BÙI THỊ SẤC
     // Ô CỪ: BÙI THỊ CỪ – CHỒNG BÀ BÙI THỊ CỪ
@@ -85,7 +85,7 @@ chart.load([
     { id: 24, orderBy: 24, fid: 14, mid: 20, pids: [37], name: "BÙI THỊ NHÂN",      title: "(1934)", gender: "female", img: "image2.jpg" },
     { id: 37, orderBy: 37, pids: [24],                  name: "NGUYỄN ĐÌNH NGÂN",   title: "(1932-2014)", gender: "male", img: "image.png" },
 
-    { id: 25, orderBy: 25, fid: 14, mid: 20, pids: [38], name: "BÙI ĐẠT NGHĨA",     title: "(1938-1969)", gender: "male",   img: "bui-dat-nghia.jpg" },
+    { id: 25, orderBy: 25, fid: 14, mid: 20, pids: [38], name: "BÙI ĐẠT NGHĨA",     title: "(1938-1969)", gender: "male",   img: "img/bui-dat-nghia.jpg" },
     { id: 38, orderBy: 38, pids: [25],                  name: "NGUYỄN THỊ SÁU",     title: "(1939)", gender: "female", img: "image2.jpg" },
 
     { id: 26, orderBy: 26, fid: 14, mid: 20, pids: [39], name: "BÙI THỊ LỢI",       title: "(1945)", gender: "female", img: "image2.jpg" },
