@@ -20,14 +20,14 @@ html, body {
             display: flex;
             align-items: center; /* Căn giữa theo chiều dọc */
             justify-content: center; /* Căn giữa trang */
-            gap: 20px; /* Khoảng cách giữa rồng và chữ */
+            gap: 30px; /* Khoảng cách giữa rồng và chữ */
             margin-top: 5px;
             font-family: "Times New Roman", serif;
         }
 
         .header-title h1 {
             color: #fbff6a; /* Màu chữ vàng kim đậm cho hợp với rồng */
-            font-size: 40px;
+            font-size: 38px;
             text-transform: uppercase;
             text-align: center;
             margin: 0;
