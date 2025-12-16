@@ -57,17 +57,11 @@ var chart = new FamilyTree(document.getElementById("tree"), {
              { 
                 type: 'textbox', 
                 label: 'Giới tính', 
-                binding: 'gender' 
-            },
-             { 
-                type: 'text', 
-                label: 'Nam', 
-                binding: 'male' 
-            },
-             { 
-                type: 'text', 
-                label: 'Nữ', 
-                binding: 'female' 
+                binding: 'gender' ,
+                options: [
+                    { value: 'male', text: 'Nam' },
+                    { value: 'female', text: 'Nữ' }
+                ]
             }
             // Bạn có thể thêm các trường khác tùy ý
         ]
