@@ -70,12 +70,13 @@ var chart = new FamilyTree(document.getElementById("tree"), {
         field_0: "name",
         field_1: "title",
         img_0: "img",
+        field_2: "Ngày giỗ"
     }
 });
 
 chart.load([
     // ===== TỔ TIÊN =====
-    { id: 1, orderBy: 1, pids: [2], name: "TỔ ÔNG", title: "(26/06 AL)", gender: "male",   img: "image.png" },
+    { id: 1, orderBy: 1, pids: [2], Ngày giỗ: 26/06 AL, name: "TỔ ÔNG", title: "(26/06 AL)", gender: "male",   img: "image.png" },
     { id: 2, orderBy: 2, pids: [1], name: "TỔ BÀ", title: "(26/06 AL)", gender: "female", img: "image2.jpg" },
 
     // ===== ĐỜI CON CỦA TỔ ÔNG – TỔ BÀ =====
