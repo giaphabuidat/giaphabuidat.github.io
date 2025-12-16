@@ -60,12 +60,12 @@ var chart = new FamilyTree(document.getElementById("tree"), {
                 binding: 'gender' 
             },
              { 
-                type: 'input', 
+                type: 'gender', 
                 label: 'Nam', 
                 binding: 'male' 
             },
              { 
-                type: 'input', 
+                type: 'gender', 
                 label: 'Nữ', 
                 binding: 'female' 
             }
