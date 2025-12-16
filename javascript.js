@@ -9,7 +9,7 @@ var chart = new FamilyTree(document.getElementById("tree"), {
     enableSearch: options.enableSearch,
     orderBy: "orderBy",
     nodeBinding: {
-        field_0: "name",
+        field_0: "Họ và tên",
         field_1: "title",
         img_0: "img",
     }
