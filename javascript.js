@@ -6,7 +6,7 @@ var chart = new FamilyTree(document.getElementById("tree"), {
     scaleInitial: options.scaleInitial,
     siblingSeparation: 120,
     template: 'john',
-    roots: [2],
+    roots: [0],
     enableSearch: options.enableSearch,
     orderBy: "orderBy",
     nodeBinding: {
