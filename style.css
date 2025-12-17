@@ -20,7 +20,7 @@ html, body {
             display: flex;
             align-items: center; /* Căn giữa theo chiều dọc */
             justify-content: center; /* Căn giữa trang */
-            gap: 30px; /* Khoảng cách giữa rồng và chữ */
+            gap: 40px; /* Khoảng cách giữa rồng và chữ */
             margin-top: 5px;
             font-family: "Times New Roman", serif;
         }
